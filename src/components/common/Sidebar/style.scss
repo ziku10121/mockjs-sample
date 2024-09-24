@@ -1,0 +1,45 @@
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: var(--left-menu-max-width);
+  height: 100%;
+  // background-color: #333;
+  // color: $white;
+  padding: 15px;
+  transition: transform 0.3s ease;
+  box-sizing: border-box;
+}
+.sidebar.is-open {
+  transform: translateX(-200px); /* 開啟時展現側邊欄 */
+}
+.toggle-btn {
+  background-color: #444;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+.menu ul li {
+  margin: 15px 0;
+}
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+.menu ul li a:hover {
+  text-decoration: underline;
+}
+.menu ul ul {
+  margin-left: 20px;
+}
+.menu ul ul li a {
+  font-size: 16px;
+}
