@@ -3,7 +3,7 @@
 ## 簡介
 
 基於 Vue3 和 Vite 的前端專案。
-使用 Mock.js Library 生成亂數數據。
+使用 [Mock.js Library](https://www.npmjs.com/package/mockjs) 生成亂數數據。
 
 ## Getting Started
 
@@ -33,6 +33,8 @@ npm install mockjs
     ...
 
 ## 使用 Mock
+
+參考 [Mock 官網](http://mockjs.com/)
 
 ### 創建 Mock 數據
 
